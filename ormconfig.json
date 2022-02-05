@@ -1,0 +1,11 @@
+{
+    "type": "oracle",
+    "host": "localhost",
+    "port": 1521,
+    "username": "admin",
+    "password": "admin",
+    "sid": "ORCL",
+    "synchronize": true,
+    "logging": true,
+    "entities": ["src/Models/*.ts"]
+ }
